@@ -1,0 +1,13 @@
+Xin Yan-435557
+LingXin Zhao-435010
+ Creative portion:
+Search: For searching the news more conveniently, we implement the search function so that user can search with a keyword. This will return out the headlines containing the keywords. We look into the database to check if any story title contains the keywords and then return the result on the page. FUNCTION: sql like operator 
+
+Like: In order to get people involved into commenting the stories, we provide ‘like’ buttons. Set a table named 'like' bind with news_id and username. Whenever people click the button, the table will be updated to record the likes.
+
+Reset password: For those users who want to reset their password, we set a ‘reset password’ method. This will require the users to enter their old password to validate and then a new password could be set. In order to do that, we first compare the old password got from the form with the password stored in the table. After matching, update the password in table to the new one.
+
+Link:http://ec2-52-26-80-178.us-west-2.compute.amazonaws.com/homepage.php
+Login: username 
+"xin.yan" and password "Zlx19960710" 
+"lingxinzhao" and password "Zd68471302"
